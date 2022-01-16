@@ -1,16 +1,28 @@
 @tailwind base;
 @layer base {
   h1 {
-    @apply text-2xl;
+    @apply text-3xl text-slate-900 py-2;
   }
   h2 {
-    @apply text-xl;
+    @apply text-xl py-1 text-slate-900 font-medium;
   }
   h3 {
-    @apply text-lg;
+    @apply text-xl py-1 text-slate-900 font-medium;
   }
   a {
     @apply text-blue-600 underline;
+  }
+  p {
+    @apply text-base text-slate-800;
+  }
+  ul {
+    @apply list-inside pl-4 text-slate-800;
+  }
+  strong {
+    @apply text-slate-800;
+  }
+  li {
+    @apply list-disc;
   }
 }
 @tailwind components;
